@@ -7,7 +7,7 @@ const categoryCards = [
     title: "Premium Appliances",
     description: "Curated home and commercial appliances from trusted global manufacturers.",
     image:
-      "https://images.unsplash.com/photo-1556911220-bda9f7f7597e?auto=format&fit=crop&w=1200&q=80",
+      "https://static.prod-images.emergentagent.com/jobs/a7634a05-8d2f-444b-ac74-4d249d81491e/images/5cd8d8d62750665cede2fba00df6dfca24edab9bcc2982e83be98a2019bf3abb.png",
     path: "/appliances",
     icon: ShieldCheck,
     testId: "home-category-appliances",
