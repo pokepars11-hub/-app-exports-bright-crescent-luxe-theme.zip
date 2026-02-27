@@ -233,7 +233,7 @@ CRYSTAL_PRODUCTS: List[CrystalProduct] = [
         collection="Home Accessories",
         material="K9 optical crystal",
         note="Statement centerpiece with high clarity and depth.",
-        image_url="http://www.yitaicrystal.com/upload/a/a99.jpg",
+        image_url="https://static.prod-images.emergentagent.com/jobs/a7634a05-8d2f-444b-ac74-4d249d81491e/images/089c5e44576414ff0bda32ccd3cc44d7566912d2c2175da7f7ce08f3304586ae.png",
     ),
     CrystalProduct(
         id="cry-006",
