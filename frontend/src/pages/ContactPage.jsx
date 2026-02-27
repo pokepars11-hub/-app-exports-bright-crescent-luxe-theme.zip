@@ -111,7 +111,7 @@ export default function ContactPage({ companyInfo }) {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full border border-secondary bg-secondary px-6 py-3 font-accent text-xs uppercase tracking-[0.18em] text-white transition-colors duration-300 hover:bg-secondary/90 disabled:opacity-60"
+            className="w-full border border-secondary bg-secondary px-6 py-3 font-accent text-xs uppercase tracking-[0.18em] text-primary transition-colors duration-300 hover:bg-[#d8b776] disabled:opacity-60"
             data-testid="contact-form-submit-button"
           >
             {isSubmitting ? "Submitting..." : "Submit Inquiry"}
