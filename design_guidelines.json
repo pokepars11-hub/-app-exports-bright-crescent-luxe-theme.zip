@@ -1,0 +1,177 @@
+{
+  "project_name": "Bright Crescent Trading Co LLC",
+  "design_philosophy": {
+    "identity": "E1: The Anti-AI Designer",
+    "core_principles": [
+      "Fusion over Imitation: Mix Luxury Fashion aesthetics with Industrial Reliability.",
+      "Emotion First: Evoke 'Trust', 'Opulence', and 'Global Reach'.",
+      "Content is King: Every product is an art piece.",
+      "Negative Space: Use whitespace as a luxury indicator."
+    ],
+    "theme_mode": "light",
+    "emotional_archetype": "Jewel & Luxury (Modified for Trading)",
+    "visual_style": "The Modern Merchant - Clean, architectural, detailed."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Playfair Display, serif",
+      "body": "Lato, sans-serif",
+      "accent": "Cinzel, serif",
+      "code": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body_lg": "text-lg md:text-xl leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-xs uppercase tracking-[0.2em] font-accent"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Cinzel:wght@400;700&display=swap');"
+    ]
+  },
+  "colors": {
+    "palette": {
+      "background": "#F9F9F7",
+      "foreground": "#1A1A1A",
+      "card": "#FFFFFF",
+      "card_foreground": "#1A1A1A",
+      "primary": "#021024",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#C5A059",
+      "secondary_foreground": "#FFFFFF",
+      "muted": "#F2F2F0",
+      "muted_foreground": "#64748B",
+      "accent": "#F4EBD9",
+      "accent_foreground": "#021024",
+      "border": "#E2E2E0",
+      "input": "#E2E2E0",
+      "ring": "#C5A059"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(2,16,36,0.4), rgba(2,16,36,0.1))",
+      "gold_sheen": "linear-gradient(135deg, #C5A059 0%, #E5C585 50%, #C5A059 100%)"
+    }
+  },
+  "layout_strategy": {
+    "container": {
+      "default": "container mx-auto px-6 md:px-12 max-w-7xl",
+      "narrow": "container mx-auto px-6 max-w-4xl"
+    },
+    "spacing": {
+      "section_padding": "py-24 md:py-32",
+      "element_gap": "gap-8 md:gap-12"
+    },
+    "grid_system": {
+      "bento_hero": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "product_catalog": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16",
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-12"
+    }
+  },
+  "components": {
+    "buttons": {
+      "default": "rounded-sm font-accent tracking-widest uppercase text-sm px-8 py-4 transition-all duration-300",
+      "primary": "bg-primary text-white hover:bg-primary/90 hover:shadow-lg",
+      "secondary": "border border-primary text-primary hover:bg-primary hover:text-white",
+      "luxury": "bg-secondary text-white hover:bg-secondary/90 shadow-md"
+    },
+    "cards": {
+      "product": "group relative overflow-hidden bg-white border border-border/40 hover:shadow-xl transition-all duration-500",
+      "feature": "p-8 bg-card border-l-2 border-secondary hover:bg-accent/20 transition-colors"
+    },
+    "inputs": {
+      "style": "rounded-none border-0 border-b-2 border-input bg-transparent px-0 py-2 focus-visible:ring-0 focus-visible:border-primary transition-colors placeholder:text-muted-foreground/50"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/70 border border-white/20 shadow-sm",
+    "textures": "bg-[url('https://www.transparenttextures.com/patterns/cube-coat.png')] bg-fixed opacity-50",
+    "animation": {
+      "scroll_reveal": "motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-8 duration-700 ease-out",
+      "hover_lift": "hover:-translate-y-2 transition-transform duration-300"
+    }
+  },
+  "image_assets": {
+    "hero_backgrounds": [
+      {
+        "url": "https://images.unsplash.com/photo-1760067537565-1d4cbb8da0c3",
+        "alt": "Luxury modern interior showing high-end lifestyle",
+        "category": "hero"
+      }
+    ],
+    "appliances": [
+      {
+        "url": "https://images.unsplash.com/photo-1758565811522-86b7ba4d5300",
+        "alt": "Premium kitchen dining setup",
+        "category": "product_category_hero"
+      }
+    ],
+    "crystals": [
+      {
+        "url": "https://images.unsplash.com/photo-1643904767336-d819d2f5585d",
+        "alt": "Crystal glass sculpture art",
+        "category": "product_item"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1583918489284-2be9908abfa2",
+        "alt": "Crystal figurine detail",
+        "category": "product_item"
+      }
+    ],
+    "spare_parts": [
+      {
+        "url": "https://images.unsplash.com/photo-1601924925166-22a19c485db7",
+        "alt": "Precision industrial tools",
+        "category": "spare_parts_hero"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1740422960726-9f495f37090b",
+        "alt": "Organized tools wall",
+        "category": "spare_parts_item"
+      }
+    ]
+  },
+  "page_specific_rules": {
+    "home": {
+      "layout": "Hero Section (Full Height) -> Value Proposition -> Categories Grid (Bento) -> Featured Products -> Trust Signals -> Footer",
+      "notes": "Use the kitchen image for hero with a dark overlay and gold text."
+    },
+    "news": {
+      "layout": "Editorial Grid. Large featured article followed by 3-column grid.",
+      "notes": "Style like a high-end magazine (Vogue/Monocle)."
+    },
+    "appliances": {
+      "layout": "Filter Sidebar (Left) + Product Grid (Right).",
+      "notes": "Clean, white background. Focus on product specs clarity."
+    },
+    "crystal_products": {
+      "layout": "Masonry Grid or 'Museum' Slider.",
+      "notes": "Use dark background sections to make crystals pop. Reference yitaicrystal.com but modernize it."
+    },
+    "spare_parts": {
+      "layout": "Dense Data Table or Compact Grid.",
+      "notes": "Reference albaztrading.com. Prioritize search and part numbers. Use monospace font for part numbers."
+    },
+    "contact": {
+      "layout": "Split Screen. Left: Black background with Gold text (Address/Map). Right: White background with minimal form.",
+      "notes": "Form fields should be underlined style. Map should be grayscale."
+    }
+  },
+  "universal_guidelines": [
+    "DO NOT use generic AI gradients. Use solid, deep colors or subtle noise.",
+    "DO NOT center text by default. Left align creates stronger hierarchy.",
+    "ALWAYS use data-testid on interactive elements.",
+    "ENSURE 8px border radius max for a sharp, professional look (or 0px for ultra-luxury).",
+    "USE 'sonner' for toast notifications.",
+    "USE 'lucide-react' for icons (thin stroke)."
+  ],
+  "instructions_to_main_agent": {
+    "step_1": "Install dependencies: `npm install lucide-react framer-motion clsx tailwind-merge sonner`",
+    "step_2": "Update tailwind.config.js with the provided colors and font families.",
+    "step_3": "Create the layout wrapper with the specific font imports.",
+    "step_4": "Build pages component by component, strictly following the page_specific_rules.",
+    "step_5": "For the 'Crystal' page, if data is missing, mock 6 high-end crystal items.",
+    "step_6": "For 'Spare Parts', mock a table of 10 industrial parts with SKU, Name, and 'In Stock' status."
+  }
+}
