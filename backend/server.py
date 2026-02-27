@@ -217,7 +217,7 @@ CRYSTAL_PRODUCTS: List[CrystalProduct] = [
         collection="Lighting Fixture",
         material="Polished faceted crystal",
         note="Decorative suspended crystal format for interiors.",
-        image_url="https://images.unsplash.com/photo-1616594039964-3f2b38db5f07?auto=format&fit=crop&w=900&q=80",
+        image_url="https://static.prod-images.emergentagent.com/jobs/a7634a05-8d2f-444b-ac74-4d249d81491e/images/d4d3e6a8bfa2dbf54a545c975e7b1b1e2381cadaa542699575fe742f14a52cbb.png",
     ),
     CrystalProduct(
         id="cry-004",
@@ -225,7 +225,7 @@ CRYSTAL_PRODUCTS: List[CrystalProduct] = [
         collection="Collection",
         material="Molded artisan crystal",
         note="Designed for premium tabletop presentation.",
-        image_url="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=900&q=80",
+        image_url="https://static.prod-images.emergentagent.com/jobs/a7634a05-8d2f-444b-ac74-4d249d81491e/images/089c5e44576414ff0bda32ccd3cc44d7566912d2c2175da7f7ce08f3304586ae.png",
     ),
     CrystalProduct(
         id="cry-005",
@@ -233,7 +233,7 @@ CRYSTAL_PRODUCTS: List[CrystalProduct] = [
         collection="Home Accessories",
         material="K9 optical crystal",
         note="Statement centerpiece with high clarity and depth.",
-        image_url="https://images.unsplash.com/photo-1616627458163-6f95d96ee7de?auto=format&fit=crop&w=900&q=80",
+        image_url="http://www.yitaicrystal.com/upload/a/a99.jpg",
     ),
     CrystalProduct(
         id="cry-006",
@@ -241,7 +241,7 @@ CRYSTAL_PRODUCTS: List[CrystalProduct] = [
         collection="Gift Customization",
         material="Precision-engraved crystal",
         note="Corporate and ceremonial recognition piece.",
-        image_url="https://images.unsplash.com/photo-1726462208168-a3667adfcae4?auto=format&fit=crop&w=900&q=80",
+        image_url="https://static.prod-images.emergentagent.com/jobs/a7634a05-8d2f-444b-ac74-4d249d81491e/images/6a56feb77cfb7555b7ebaca2eee0d56d9fc0ec5e57144fd82602bea8a3f5a7cc.png",
     ),
 ]
 
