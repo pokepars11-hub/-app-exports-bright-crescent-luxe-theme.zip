@@ -67,11 +67,9 @@ class CrystalProduct(BaseModel):
 
 class SparePart(BaseModel):
     id: str
-    sku: str
     name: str
     category: str
-    compatibility: str
-    in_stock: bool
+    image_url: str
 
 
 class ContactInquiryCreate(BaseModel):
@@ -247,16 +245,66 @@ CRYSTAL_PRODUCTS: List[CrystalProduct] = [
 
 
 SPARE_PARTS: List[SparePart] = [
-    SparePart(id="sp-001", sku="AC-CMP-410", name="AC Compressor", category="Air Conditioning", compatibility="Split & Ducted Units", in_stock=True),
-    SparePart(id="sp-002", sku="AC-DCT-122", name="AC Duct", category="Air Conditioning", compatibility="Commercial Cooling", in_stock=True),
-    SparePart(id="sp-003", sku="CC-COIL-774", name="Cooling Coil", category="HVAC", compatibility="Centralized Systems", in_stock=True),
-    SparePart(id="sp-004", sku="FR-CMP-993", name="Fridge Compressor", category="Refrigeration", compatibility="Single/Double Door", in_stock=False),
-    SparePart(id="sp-005", sku="FR-TMR-632", name="Fridge Timer", category="Refrigeration", compatibility="Domestic & Commercial", in_stock=True),
-    SparePart(id="sp-006", sku="FR-THM-118", name="Fridge Thermostat", category="Refrigeration", compatibility="Multi-brand Models", in_stock=True),
-    SparePart(id="sp-007", sku="WM-PLS-555", name="Washing Machine Pulsator", category="Laundry", compatibility="Top-load Machines", in_stock=True),
-    SparePart(id="sp-008", sku="WM-HUB-209", name="Washing Machine Hub", category="Laundry", compatibility="Heavy-duty Machines", in_stock=False),
-    SparePart(id="sp-009", sku="WM-GEAR-330", name="Washing Machine Gear", category="Laundry", compatibility="Multiple Gearbox Types", in_stock=True),
-    SparePart(id="sp-010", sku="HV-FAN-842", name="Condenser Fan Motor", category="HVAC", compatibility="AC Outdoor Units", in_stock=True),
+    SparePart(
+        id="sp-001",
+        name="AC Compressor",
+        category="Air Conditioning",
+        image_url="https://albaztrading.com/images/p1.webp",
+    ),
+    SparePart(
+        id="sp-002",
+        name="AC Duct",
+        category="Air Conditioning",
+        image_url="https://albaztrading.com/images/p2.webp",
+    ),
+    SparePart(
+        id="sp-003",
+        name="Cooling Coil",
+        category="HVAC",
+        image_url="https://albaztrading.com/images/p3.webp",
+    ),
+    SparePart(
+        id="sp-004",
+        name="Fridge Compressor",
+        category="Refrigeration",
+        image_url="https://albaztrading.com/images/p4.webp",
+    ),
+    SparePart(
+        id="sp-005",
+        name="Fridge Timer",
+        category="Refrigeration",
+        image_url="https://albaztrading.com/images/p5.webp",
+    ),
+    SparePart(
+        id="sp-006",
+        name="Fridge Thermostat",
+        category="Refrigeration",
+        image_url="https://albaztrading.com/images/p6.webp",
+    ),
+    SparePart(
+        id="sp-007",
+        name="Washing Machine Pulsator",
+        category="Laundry",
+        image_url="https://albaztrading.com/images/p7.webp",
+    ),
+    SparePart(
+        id="sp-008",
+        name="Washing Machine Hub",
+        category="Laundry",
+        image_url="https://albaztrading.com/images/p8.webp",
+    ),
+    SparePart(
+        id="sp-009",
+        name="Washing Machine Gear",
+        category="Laundry",
+        image_url="https://albaztrading.com/images/p9.webp",
+    ),
+    SparePart(
+        id="sp-010",
+        name="Condenser Fan Motor",
+        category="HVAC",
+        image_url="https://albaztrading.com/images/b1.webp",
+    ),
 ]
 
 
