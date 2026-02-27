@@ -1,5 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { fetchSpareParts } from "@/lib/api";
+import { toast } from "@/components/ui/sonner";
+
+const CATALOG_DOWNLOAD_URL = "";
 
 export default function SparePartsPage() {
   const [parts, setParts] = useState([]);
@@ -20,11 +23,15 @@ export default function SparePartsPage() {
   const filteredParts = useMemo(() => {
     const value = query.trim().toLowerCase();
     if (!value) return parts;
-    return parts.filter((part) => {
-      const stack = `${part.sku} ${part.name} ${part.category} ${part.compatibility}`.toLowerCase();
-      return stack.includes(value);
-    });
+    return parts.filter((part) => `${part.name} ${part.category}`.toLowerCase().includes(value));
   }, [parts, query]);
+
+  const onCatalogDownload = (event) => {
+    if (!CATALOG_DOWNLOAD_URL) {
+      event.preventDefault();
+      toast.info("Catalog link will be added once you share the final file.");
+    }
+  };
 
   return (
     <div className="mx-auto w-full max-w-7xl px-6 py-16 md:px-12" data-testid="spare-parts-page">
@@ -41,49 +48,57 @@ export default function SparePartsPage() {
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search by SKU, category, or part name"
+          placeholder="Search by item name or category"
           className="w-full border border-border bg-white px-4 py-3 text-sm outline-none transition-colors duration-300 focus:border-secondary"
           data-testid="spare-parts-search-input"
         />
       </div>
 
-      <div className="mt-8 overflow-hidden border border-border/70 bg-white" data-testid="spare-parts-table-wrapper">
-        <div
-          className="grid grid-cols-5 gap-2 border-b border-border/70 bg-accent/50 px-4 py-3 font-accent text-xs uppercase tracking-[0.16em] text-primary"
-          data-testid="spare-parts-table-header"
+      <div
+        className="mt-8 flex flex-wrap items-center justify-between gap-4 border border-border/70 bg-white px-5 py-4"
+        data-testid="spare-parts-catalog-download-area"
+      >
+        <div data-testid="spare-parts-catalog-text-block">
+          <p className="font-accent text-xs uppercase tracking-[0.16em] text-secondary" data-testid="spare-parts-catalog-title">
+            Spare Parts Catalog
+          </p>
+          <p className="mt-1 text-sm text-muted-foreground" data-testid="spare-parts-catalog-description">
+            Download full catalog PDF (final file link will be added by your team).
+          </p>
+        </div>
+        <a
+          href={CATALOG_DOWNLOAD_URL || "#"}
+          onClick={onCatalogDownload}
+          className="border border-secondary bg-secondary px-5 py-2 font-accent text-xs uppercase tracking-[0.16em] text-primary transition-colors duration-300 hover:bg-[#d8b776]"
+          data-testid="spare-parts-download-catalog-button"
         >
-          <span data-testid="spare-parts-column-sku">SKU</span>
-          <span data-testid="spare-parts-column-name">Name</span>
-          <span data-testid="spare-parts-column-category">Category</span>
-          <span data-testid="spare-parts-column-compatibility">Compatibility</span>
-          <span data-testid="spare-parts-column-stock">Stock</span>
-        </div>
+          Download Catalog
+        </a>
+      </div>
 
-        <div data-testid="spare-parts-table-rows">
-          {filteredParts.map((part) => (
-            <div
-              key={part.id}
-              className="grid grid-cols-1 gap-2 border-b border-border/60 px-4 py-4 text-sm md:grid-cols-5 md:items-center"
-              data-testid={`spare-part-row-${part.id}`}
-            >
-              <p className="font-code text-primary" data-testid={`spare-part-sku-${part.id}`}>{part.sku}</p>
-              <p className="text-primary" data-testid={`spare-part-name-${part.id}`}>{part.name}</p>
-              <p className="text-muted-foreground" data-testid={`spare-part-category-${part.id}`}>{part.category}</p>
-              <p className="text-muted-foreground" data-testid={`spare-part-compatibility-${part.id}`}>{part.compatibility}</p>
-              <div data-testid={`spare-part-stock-${part.id}`}>
-                <span
-                  className={`inline-flex border px-2 py-1 font-accent text-[10px] uppercase tracking-[0.14em] ${
-                    part.in_stock
-                      ? "border-emerald-600 bg-emerald-50 text-emerald-700"
-                      : "border-amber-600 bg-amber-50 text-amber-700"
-                  }`}
-                >
-                  {part.in_stock ? "In Stock" : "On Request"}
-                </span>
-              </div>
+      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-testid="spare-parts-cards-grid">
+        {filteredParts.map((part) => (
+          <article
+            key={part.id}
+            className="overflow-hidden border border-border/70 bg-white"
+            data-testid={`spare-part-card-${part.id}`}
+          >
+            <img
+              src={part.image_url}
+              alt={part.name}
+              className="aspect-[4/3] w-full object-cover"
+              data-testid={`spare-part-image-${part.id}`}
+            />
+            <div className="p-5">
+              <h2 className="text-2xl text-primary" data-testid={`spare-part-name-${part.id}`}>
+                {part.name}
+              </h2>
+              <p className="mt-2 font-accent text-xs uppercase tracking-[0.16em] text-secondary" data-testid={`spare-part-category-${part.id}`}>
+                {part.category}
+              </p>
             </div>
-          ))}
-        </div>
+          </article>
+        ))}
       </div>
     </div>
   );
