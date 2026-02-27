@@ -42,6 +42,8 @@ User choices captured:
 - Contact form connected to backend and persisted in MongoDB
 - Added curated product/news datasets inspired by reference websites and enhanced with high-quality media
 - Added comprehensive `data-testid` attributes across interactive and critical content areas
+- Updated Spare Parts page to card layout with **item image + item name + category only** (removed stock and compatibility display)
+- Added a catalog download section/button on Spare Parts page with placeholder link behavior (ready to connect your final catalog URL)
 
 ## Validation & Testing
 - Manual API smoke tests via `curl` passed
@@ -53,6 +55,7 @@ User choices captured:
 ### P0 (Must-do next)
 - Replace placeholder Shop and Office address/phone with final business information
 - Replace curated sample product metadata with exact product list, brands, and descriptions from business team
+- Provide final catalog file URL for Spare Parts so Download Catalog button can serve the real file
 
 ### P1 (High value)
 - Add CMS-style admin content editor (or JSON-driven content dashboard) for easier non-technical updates
