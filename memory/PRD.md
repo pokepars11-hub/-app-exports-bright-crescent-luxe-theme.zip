@@ -45,6 +45,7 @@ User choices captured:
 - Updated Spare Parts page to card layout with **item image + item name + category only** (removed stock and compatibility display)
 - Added a catalog download section/button on Spare Parts page with placeholder link behavior (ready to connect your final catalog URL)
 - Prepared GitHub-ready export artifacts in both `/app/exports/` and repository root (`/app/bright-crescent-website.zip`, `/app/bright-crescent-database.sql`) and updated `.gitignore` exceptions so ZIP can be saved to GitHub
+- Built a **full package ZIP** that includes website source, SQL export, and local copies of all remote image assets (with URL manifest): `/app/exports/bright-crescent-full-site-with-assets.zip`
 
 ## Validation & Testing
 - Manual API smoke tests via `curl` passed
