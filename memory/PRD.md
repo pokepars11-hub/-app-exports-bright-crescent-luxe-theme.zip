@@ -44,6 +44,7 @@ User choices captured:
 - Added comprehensive `data-testid` attributes across interactive and critical content areas
 - Updated Spare Parts page to card layout with **item image + item name + category only** (removed stock and compatibility display)
 - Added a catalog download section/button on Spare Parts page with placeholder link behavior (ready to connect your final catalog URL)
+- Prepared GitHub-ready export artifacts in both `/app/exports/` and repository root (`/app/bright-crescent-website.zip`, `/app/bright-crescent-database.sql`) and updated `.gitignore` exceptions so ZIP can be saved to GitHub
 
 ## Validation & Testing
 - Manual API smoke tests via `curl` passed

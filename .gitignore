@@ -73,6 +73,11 @@ agenthub/agents/youtube/db
 *.deb
 *.dylib
 
+# Allow Bright Crescent export artifacts
+!exports/
+!exports/bright-crescent-website.zip
+!bright-crescent-website.zip
+
 # Build caches
 .cache/
 
