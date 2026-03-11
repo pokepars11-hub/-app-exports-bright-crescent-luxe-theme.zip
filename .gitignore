@@ -76,7 +76,9 @@ agenthub/agents/youtube/db
 # Allow Bright Crescent export artifacts
 !exports/
 !exports/bright-crescent-website.zip
+!exports/bright-crescent-luxe-theme.zip
 !bright-crescent-website.zip
+!bright-crescent-luxe-theme.zip
 
 # Build caches
 .cache/

@@ -1,0 +1,18 @@
+/*
+Theme Name: Bright Crescent Luxe
+Theme URI: https://brightcrescenttrading.com
+Author: Bright Crescent Trading Co LLC
+Author URI: https://brightcrescenttrading.com
+Description: Luxury WordPress theme for Bright Crescent Trading Co LLC. Built for Hostinger shared hosting and Elementor compatibility.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bright-crescent-luxe
+Tags: custom-logo, custom-menu, featured-images, elementor, one-column, two-columns, e-commerce
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&family=Cinzel:wght@400;700&display=swap");
+@import url("./assets/css/theme.css");

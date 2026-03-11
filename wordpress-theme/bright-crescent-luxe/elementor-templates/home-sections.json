@@ -1,0 +1,134 @@
+{
+  "version": "0.4",
+  "title": "Bright Crescent Home Sections",
+  "type": "page",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "bct_hero_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "bct_hero_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bct_hero_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Bright Crescent Trading Co LLC",
+                "size": "xxl"
+              },
+              "elements": []
+            },
+            {
+              "id": "bct_hero_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Premium trading in appliances, crystal craft, and precision spare parts."
+              },
+              "elements": []
+            },
+            {
+              "id": "bct_hero_button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Contact Us",
+                "link": {
+                  "url": "/contact-us"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bct_about_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "bct_about_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bct_about_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A trusted trading partner with premium standards.",
+                "size": "xl"
+              },
+              "elements": []
+            },
+            {
+              "id": "bct_about_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Bright Crescent Trading Co LLC serves retail and commercial clients across UAE with carefully selected products."
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bct_cta_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "bct_cta_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bct_cta_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need premium product sourcing support?",
+                "size": "xl"
+              },
+              "elements": []
+            },
+            {
+              "id": "bct_cta_button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get in Touch",
+                "link": {
+                  "url": "/contact-us"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

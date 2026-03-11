@@ -73,3 +73,35 @@ User choices captured:
 1. Insert final shop/office contact details provided by client
 2. Replace sample catalog content with approved inventory and brand assets
 3. Add lightweight content management layer to improve WordPress migration readiness
+
+---
+
+## Further Development - WordPress Rebuild for Hostinger
+
+### New User Request
+Rebuild the website as a real WordPress theme package compatible with Hostinger shared hosting and Elementor (free), fully editable from WordPress admin without npm/yarn/build workflows.
+
+### Implemented WordPress Deliverables
+- Created complete WordPress theme at: `/app/wordpress-theme/bright-crescent-luxe`
+- Exported install-ready theme ZIP: `/app/exports/bright-crescent-luxe-theme.zip`
+- Included required core files:
+  - `style.css`, `functions.php`, `index.php`, `header.php`, `footer.php`, `page.php`, `single.php`, `front-page.php`, `screenshot.png`
+- Added standard structure:
+  - `assets/`, `template-parts/`, `inc/`, custom page templates
+- Added editable section architecture for:
+  - Header, Footer, Hero, About, Services/Products, Contact, CTA
+- Added WordPress Customizer controls for text/images/buttons/links and contact details
+- Added Contact form workflow:
+  - Saves inquiries in dashboard (`Contact Inquiries` CPT)
+  - Sends email notification to WordPress admin email
+- Added Elementor compatibility support and Elementor import file:
+  - `elementor-templates/home-sections.json`
+- Added demo content import file:
+  - `demo-content/bright-crescent-demo.xml`
+- Added Hostinger setup guide:
+  - `README-HOSTINGER-INSTALLATION.txt`
+
+### Notes
+- Theme is designed for direct upload via **Appearance > Themes > Add New > Upload Theme**
+- No Node/Python build process required after delivery
+- Demo content and Elementor JSON are included in theme package for non-technical setup flow
