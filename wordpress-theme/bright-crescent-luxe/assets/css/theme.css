@@ -1,3 +1,67 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display-400.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display-600.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display-700.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/lato-300.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/lato-400.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/lato-700.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/cinzel-400.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/cinzel-700.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --bct-bg: #f9f9f7;
     --bct-text: #1a1a1a;

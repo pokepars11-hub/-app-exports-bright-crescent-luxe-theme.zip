@@ -1,253 +1,820 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0"
-    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:wp="http://wordpress.org/export/1.2/"
->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
 <channel>
-    <title>Bright Crescent Trading Co LLC</title>
-    <link>https://example.com</link>
-    <description>Premium trading in appliances, crystal craft, and spare parts.</description>
-    <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-    <language>en-US</language>
-    <wp:wxr_version>1.2</wp:wxr_version>
-    <wp:base_site_url>https://example.com</wp:base_site_url>
-    <wp:base_blog_url>https://example.com</wp:base_blog_url>
-
-    <wp:author>
-        <wp:author_id>1</wp:author_id>
-        <wp:author_login><![CDATA[admin]]></wp:author_login>
-        <wp:author_email><![CDATA[admin@example.com]]></wp:author_email>
-        <wp:author_display_name><![CDATA[Admin]]></wp:author_display_name>
-        <wp:author_first_name><![CDATA[Site]]></wp:author_first_name>
-        <wp:author_last_name><![CDATA[Owner]]></wp:author_last_name>
-    </wp:author>
-
-    <item>
-        <title>Home</title>
-        <link>https://example.com/home</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=1001</guid>
-        <description></description>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>1001</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[home]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-    </item>
-
-    <item>
-        <title>News</title>
-        <link>https://example.com/news</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=1002</guid>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>1002</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[news]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[template-news.php]]></wp:meta_value>
-        </wp:postmeta>
-    </item>
-
-    <item>
-        <title>Appliances Products</title>
-        <link>https://example.com/appliances-products</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=1003</guid>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>1003</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[appliances-products]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[template-products-appliances.php]]></wp:meta_value>
-        </wp:postmeta>
-    </item>
-
-    <item>
-        <title>Crystal Products</title>
-        <link>https://example.com/crystal-products</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=1004</guid>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>1004</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[crystal-products]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[template-products-crystal.php]]></wp:meta_value>
-        </wp:postmeta>
-    </item>
-
-    <item>
-        <title>Appliances Spare Parts</title>
-        <link>https://example.com/appliances-spare-parts</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=1005</guid>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>1005</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[appliances-spare-parts]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[template-products-spare-parts.php]]></wp:meta_value>
-        </wp:postmeta>
-    </item>
-
-    <item>
-        <title>Contact Us</title>
-        <link>https://example.com/contact-us</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=1006</guid>
-        <content:encoded><![CDATA[]]></content:encoded>
-        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
-        <wp:post_id>1006</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[contact-us]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[page]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <wp:postmeta>
-            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-            <wp:meta_value><![CDATA[template-contact.php]]></wp:meta_value>
-        </wp:postmeta>
-    </item>
-
-    <item>
-        <title>Bright Crescent Expands Premium Appliance Procurement Network</title>
-        <link>https://example.com/news-item-1</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=2001</guid>
-        <content:encoded><![CDATA[Our sourcing division now supports broader supply coverage for premium kitchen and lifestyle appliances across GCC markets.]]></content:encoded>
-        <excerpt:encoded><![CDATA[Our sourcing division now supports broader supply coverage for premium kitchen and lifestyle appliances across GCC markets.]]></excerpt:encoded>
-        <wp:post_id>2001</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[news-item-1]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[bct_news]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-    </item>
-
-    <item>
-        <title>Elite Smart Refrigerator 520L</title>
-        <link>https://example.com/product-elite-smart-refrigerator</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=3001</guid>
-        <content:encoded><![CDATA[Multi-zone cooling, energy-efficient inverter, fingerprint-resistant steel.]]></content:encoded>
-        <excerpt:encoded><![CDATA[Multi-zone cooling, energy-efficient inverter, fingerprint-resistant steel.]]></excerpt:encoded>
-        <wp:post_id>3001</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[elite-smart-refrigerator-520l]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[bct_product]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <category domain="bct_product_type" nicename="appliances"><![CDATA[Appliances]]></category>
-    </item>
-
-    <item>
-        <title>Aurora Crystal Vase</title>
-        <link>https://example.com/product-aurora-crystal-vase</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=3002</guid>
-        <content:encoded><![CDATA[Elegant crystal display piece for premium interiors and gifting.]]></content:encoded>
-        <excerpt:encoded><![CDATA[Elegant crystal display piece for premium interiors and gifting.]]></excerpt:encoded>
-        <wp:post_id>3002</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[aurora-crystal-vase]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[bct_product]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <category domain="bct_product_type" nicename="crystal-products"><![CDATA[Crystal Products]]></category>
-    </item>
-
-    <item>
-        <title>AC Compressor</title>
-        <link>https://example.com/product-ac-compressor</link>
-        <pubDate>Wed, 05 Mar 2026 00:00:00 +0000</pubDate>
-        <dc:creator><![CDATA[admin]]></dc:creator>
-        <guid isPermaLink="false">https://example.com/?p=3003</guid>
-        <content:encoded><![CDATA[Reliable cooling component for residential and commercial AC systems.]]></content:encoded>
-        <excerpt:encoded><![CDATA[Reliable cooling component for residential and commercial AC systems.]]></excerpt:encoded>
-        <wp:post_id>3003</wp:post_id>
-        <wp:post_date><![CDATA[2026-03-05 00:00:00]]></wp:post_date>
-        <wp:post_date_gmt><![CDATA[2026-03-05 00:00:00]]></wp:post_date_gmt>
-        <wp:post_name><![CDATA[ac-compressor]]></wp:post_name>
-        <wp:status><![CDATA[publish]]></wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
-        <wp:post_type><![CDATA[bct_product]]></wp:post_type>
-        <wp:post_password><![CDATA[]]></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <category domain="bct_product_type" nicename="spare-parts"><![CDATA[Spare Parts]]></category>
-    </item>
-
+<title>Bright Crescent Trading Co LLC</title>
+<link>https://example.com</link>
+<description>Premium trading in appliances, crystal craft, and precision spare parts.</description>
+<wp:wxr_version>1.2</wp:wxr_version>
+<wp:base_site_url>https://example.com</wp:base_site_url>
+<wp:base_blog_url>https://example.com</wp:base_blog_url>
+<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@example.com]]></wp:author_email><wp:author_display_name><![CDATA[Admin]]></wp:author_display_name></wp:author>
+<wp:option><wp:option_name>show_on_front</wp:option_name><wp:option_value><![CDATA[page]]></wp:option_value></wp:option>
+<wp:option><wp:option_name>page_on_front</wp:option_name><wp:option_value><![CDATA[1001]]></wp:option_value></wp:option>
+<wp:option><wp:option_name>page_for_posts</wp:option_name><wp:option_value><![CDATA[1002]]></wp:option_value></wp:option>
+<wp:term><wp:term_id>1</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>primary-menu</wp:term_slug><wp:term_name><![CDATA[Primary Menu]]></wp:term_name></wp:term>
+<item>
+<title>Home</title>
+<link>https://example.com/home</link>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=1001</guid>
+<description></description>
+<content:encoded><![CDATA[<section class="bct-hero" style="background-image: linear-gradient(to bottom, rgba(2,16,36,0.58), rgba(2,16,36,0.2)), url('/wp-content/themes/bright-crescent-luxe/assets/images/hero.jpg');">
+  <div class="bct-container bct-hero-inner">
+    <p class="bct-section-tag">BRIGHT CRESCENT TRADING EXPERIENCE</p>
+    <h1>Bright Crescent Trading Co LLC</h1>
+    <p class="bct-hero-sub">Premium Trading in Appliances, Crystal Craft, and Precision Spare Parts</p>
+    <div class="bct-hero-cta-group">
+      <a class="bct-btn bct-btn-gold" href="/contact-us">Contact Us</a>
+      <a class="bct-btn bct-btn-outline" href="/appliances-products">Explore Products</a>
+    </div>
+  </div>
+</section>
+<section class="bct-section bct-container">
+  <p class="bct-section-tag">Core Divisions</p>
+  <h2>Professional sourcing across appliances, crystal products, and spare parts.</h2>
+  <div class="bct-grid bct-grid-3">
+    <article class="bct-card"><div class="bct-card-media"><img src="/wp-content/themes/bright-crescent-luxe/assets/images/home-appliances.jpg" alt="Premium Appliances"></div><div class="bct-card-content"><h3>Premium Appliances</h3><p>Curated home and commercial appliances from trusted global manufacturers.</p><a class="bct-inline-link" href="/appliances-products">View Category</a></div></article>
+    <article class="bct-card"><div class="bct-card-media"><img src="/wp-content/themes/bright-crescent-luxe/assets/images/home-crystal.jpg" alt="Crystal Products"></div><div class="bct-card-content"><h3>Crystal Products</h3><p>Elegant crystal pieces inspired by international design and craftsmanship.</p><a class="bct-inline-link" href="/crystal-products">View Category</a></div></article>
+    <article class="bct-card"><div class="bct-card-media"><img src="/wp-content/themes/bright-crescent-luxe/assets/images/home-spare-parts.jpg" alt="Spare Parts"></div><div class="bct-card-content"><h3>Appliances Spare Parts</h3><p>Reliable AC, refrigerator, and washing-machine parts for technicians and businesses.</p><a class="bct-inline-link" href="/appliances-spare-parts">View Category</a></div></article>
+  </div>
+</section>
+<section class="bct-section bct-container bct-about-grid">
+  <div><p class="bct-section-tag">About Bright Crescent</p><h2>A trusted trading partner with premium standards.</h2><p>Bright Crescent Trading Co LLC serves retail and commercial clients across UAE with carefully selected appliances, elegant crystal products, and dependable spare parts solutions.</p></div>
+  <div class="bct-about-image-wrap"><img src="/wp-content/themes/bright-crescent-luxe/assets/images/about.jpg" alt="About Bright Crescent"></div>
+</section>
+<section class="bct-section bct-container"><div class="bct-cta-box"><div><p class="bct-section-tag">Partnership Opportunity</p><h2>Need premium product sourcing support?</h2><p>Connect with our team for product catalogs, pricing details, and partnership opportunities.</p></div><a class="bct-btn bct-btn-gold" href="/contact-us">Get in Touch</a></div></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+<wp:post_id>1001</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[home]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key><wp:meta_value><![CDATA[builder]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key><wp:meta_value><![CDATA[3.20.0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key><wp:meta_value><![CDATA[[{"id": "sec-home", "elType": "section", "settings": {"content_width": "full"}, "elements": [{"id": "col-home", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "html-home", "elType": "widget", "widgetType": "html", "settings": {"html": "<section class=\"bct-hero\" style=\"background-image: linear-gradient(to bottom, rgba(2,16,36,0.58), rgba(2,16,36,0.2)), url('/wp-content/themes/bright-crescent-luxe/assets/images/hero.jpg');\">\n  <div class=\"bct-container bct-hero-inner\">\n    <p class=\"bct-section-tag\">BRIGHT CRESCENT TRADING EXPERIENCE</p>\n    <h1>Bright Crescent Trading Co LLC</h1>\n    <p class=\"bct-hero-sub\">Premium Trading in Appliances, Crystal Craft, and Precision Spare Parts</p>\n    <div class=\"bct-hero-cta-group\">\n      <a class=\"bct-btn bct-btn-gold\" href=\"/contact-us\">Contact Us</a>\n      <a class=\"bct-btn bct-btn-outline\" href=\"/appliances-products\">Explore Products</a>\n    </div>\n  </div>\n</section>\n<section class=\"bct-section bct-container\">\n  <p class=\"bct-section-tag\">Core Divisions</p>\n  <h2>Professional sourcing across appliances, crystal products, and spare parts.</h2>\n  <div class=\"bct-grid bct-grid-3\">\n    <article class=\"bct-card\"><div class=\"bct-card-media\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/home-appliances.jpg\" alt=\"Premium Appliances\"></div><div class=\"bct-card-content\"><h3>Premium Appliances</h3><p>Curated home and commercial appliances from trusted global manufacturers.</p><a class=\"bct-inline-link\" href=\"/appliances-products\">View Category</a></div></article>\n    <article class=\"bct-card\"><div class=\"bct-card-media\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/home-crystal.jpg\" alt=\"Crystal Products\"></div><div class=\"bct-card-content\"><h3>Crystal Products</h3><p>Elegant crystal pieces inspired by international design and craftsmanship.</p><a class=\"bct-inline-link\" href=\"/crystal-products\">View Category</a></div></article>\n    <article class=\"bct-card\"><div class=\"bct-card-media\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/home-spare-parts.jpg\" alt=\"Spare Parts\"></div><div class=\"bct-card-content\"><h3>Appliances Spare Parts</h3><p>Reliable AC, refrigerator, and washing-machine parts for technicians and businesses.</p><a class=\"bct-inline-link\" href=\"/appliances-spare-parts\">View Category</a></div></article>\n  </div>\n</section>\n<section class=\"bct-section bct-container bct-about-grid\">\n  <div><p class=\"bct-section-tag\">About Bright Crescent</p><h2>A trusted trading partner with premium standards.</h2><p>Bright Crescent Trading Co LLC serves retail and commercial clients across UAE with carefully selected appliances, elegant crystal products, and dependable spare parts solutions.</p></div>\n  <div class=\"bct-about-image-wrap\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/about.jpg\" alt=\"About Bright Crescent\"></div>\n</section>\n<section class=\"bct-section bct-container\"><div class=\"bct-cta-box\"><div><p class=\"bct-section-tag\">Partnership Opportunity</p><h2>Need premium product sourcing support?</h2><p>Connect with our team for product catalogs, pricing details, and partnership opportunities.</p></div><a class=\"bct-btn bct-btn-gold\" href=\"/contact-us\">Get in Touch</a></div></section>"}, "elements": []}]}]}]]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>News</title>
+<link>https://example.com/news</link>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=1002</guid>
+<description></description>
+<content:encoded><![CDATA[<section class='bct-section bct-container'><p class='bct-section-tag'>Company Updates</p><h1 class='bct-page-title'>News and market highlights from Bright Crescent.</h1><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-01.jpg' alt='Bright Crescent Expands Premium Appliance Procurement Network'></div><div class='bct-card-content'><p class='bct-card-meta'>Company · 2026-01-15</p><h2>Bright Crescent Expands Premium Appliance Procurement Network</h2><p>Our sourcing division now supports broader supply coverage for premium kitchen and lifestyle appliances across GCC markets.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-02.jpg' alt='Crystal Collections for Hospitality and Luxury Interiors'></div><div class='bct-card-content'><p class='bct-card-meta'>Product · 2025-12-07</p><h2>Crystal Collections for Hospitality and Luxury Interiors</h2><p>We introduced curated crystal décor lines inspired by international exhibitions to support hotels, lounges, and high-end residences.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-03.jpg' alt='Faster Spare Parts Availability for Cooling Systems'></div><div class='bct-card-content'><p class='bct-card-meta'>Operations · 2025-11-26</p><h2>Faster Spare Parts Availability for Cooling Systems</h2><p>Inventory optimization now improves turnaround for AC and refrigeration spare parts requested by technicians and facility teams.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-04.jpg' alt='Strategic Vendor Alliances for Long-Term Quality Assurance'></div><div class='bct-card-content'><p class='bct-card-meta'>Partnership · 2025-10-13</p><h2>Strategic Vendor Alliances for Long-Term Quality Assurance</h2><p>Bright Crescent reinforces quality checks and compliance standards through strategic partner evaluation and lifecycle testing.</p></div></article></div></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+<wp:post_id>1002</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[news]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key><wp:meta_value><![CDATA[builder]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key><wp:meta_value><![CDATA[3.20.0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key><wp:meta_value><![CDATA[[{"id": "sec-news", "elType": "section", "settings": {"content_width": "full"}, "elements": [{"id": "col-news", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "html-news", "elType": "widget", "widgetType": "html", "settings": {"html": "<section class='bct-section bct-container'><p class='bct-section-tag'>Company Updates</p><h1 class='bct-page-title'>News and market highlights from Bright Crescent.</h1><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-01.jpg' alt='Bright Crescent Expands Premium Appliance Procurement Network'></div><div class='bct-card-content'><p class='bct-card-meta'>Company · 2026-01-15</p><h2>Bright Crescent Expands Premium Appliance Procurement Network</h2><p>Our sourcing division now supports broader supply coverage for premium kitchen and lifestyle appliances across GCC markets.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-02.jpg' alt='Crystal Collections for Hospitality and Luxury Interiors'></div><div class='bct-card-content'><p class='bct-card-meta'>Product · 2025-12-07</p><h2>Crystal Collections for Hospitality and Luxury Interiors</h2><p>We introduced curated crystal décor lines inspired by international exhibitions to support hotels, lounges, and high-end residences.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-03.jpg' alt='Faster Spare Parts Availability for Cooling Systems'></div><div class='bct-card-content'><p class='bct-card-meta'>Operations · 2025-11-26</p><h2>Faster Spare Parts Availability for Cooling Systems</h2><p>Inventory optimization now improves turnaround for AC and refrigeration spare parts requested by technicians and facility teams.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-04.jpg' alt='Strategic Vendor Alliances for Long-Term Quality Assurance'></div><div class='bct-card-content'><p class='bct-card-meta'>Partnership · 2025-10-13</p><h2>Strategic Vendor Alliances for Long-Term Quality Assurance</h2><p>Bright Crescent reinforces quality checks and compliance standards through strategic partner evaluation and lifecycle testing.</p></div></article></div></section>"}, "elements": []}]}]}]]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key><wp:meta_value><![CDATA[template-news.php]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>Appliances Products</title>
+<link>https://example.com/appliances-products</link>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=1003</guid>
+<description></description>
+<content:encoded><![CDATA[<section class='bct-section bct-container'><p class='bct-section-tag'>Appliances Portfolio</p><h1 class='bct-page-title'>Premium appliances for modern residential and commercial needs.</h1><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-01.jpg' alt='Elite Smart Refrigerator 520L'></div><div class='bct-card-content'><p class='bct-card-meta'>Refrigeration · Germany</p><h2>Elite Smart Refrigerator 520L</h2><ul><li>Multi-zone cooling</li><li>Energy-efficient inverter</li><li>Fingerprint-resistant steel</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-02.jpg' alt='Signature Convection Oven Pro'></div><div class='bct-card-content'><p class='bct-card-meta'>Cooking · Italy</p><h2>Signature Convection Oven Pro</h2><ul><li>Dual convection</li><li>Steam-assist baking</li><li>Soft-close precision doors</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-03.jpg' alt='Premium Front-Load Washer'></div><div class='bct-card-content'><p class='bct-card-meta'>Laundry · Japan</p><h2>Premium Front-Load Washer</h2><ul><li>Silent-drive motor</li><li>Auto-dose detergent</li><li>Fabric care modes</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-04.jpg' alt='Built-in Wine Chiller'></div><div class='bct-card-content'><p class='bct-card-meta'>Lifestyle · France</p><h2>Built-in Wine Chiller</h2><ul><li>UV-protected glass</li><li>Dual temperature zones</li><li>Vibration-control system</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-05.jpg' alt='Platinum Dishwasher Series X'></div><div class='bct-card-content'><p class='bct-card-meta'>Cleaning · Sweden</p><h2>Platinum Dishwasher Series X</h2><ul><li>Low water usage</li><li>Crystal-safe cycle</li><li>Auto-dry technology</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-06.jpg' alt='Modular Air Purification Tower'></div><div class='bct-card-content'><p class='bct-card-meta'>Air Care · UAE</p><h2>Modular Air Purification Tower</h2><ul><li>HEPA H14 filtration</li><li>Smart sensors</li><li>Large-space coverage</li></ul></div></article></div></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+<wp:post_id>1003</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliances-products]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key><wp:meta_value><![CDATA[builder]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key><wp:meta_value><![CDATA[3.20.0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key><wp:meta_value><![CDATA[[{"id": "sec-appliances-products", "elType": "section", "settings": {"content_width": "full"}, "elements": [{"id": "col-appliances-products", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "html-appliances-products", "elType": "widget", "widgetType": "html", "settings": {"html": "<section class='bct-section bct-container'><p class='bct-section-tag'>Appliances Portfolio</p><h1 class='bct-page-title'>Premium appliances for modern residential and commercial needs.</h1><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-01.jpg' alt='Elite Smart Refrigerator 520L'></div><div class='bct-card-content'><p class='bct-card-meta'>Refrigeration · Germany</p><h2>Elite Smart Refrigerator 520L</h2><ul><li>Multi-zone cooling</li><li>Energy-efficient inverter</li><li>Fingerprint-resistant steel</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-02.jpg' alt='Signature Convection Oven Pro'></div><div class='bct-card-content'><p class='bct-card-meta'>Cooking · Italy</p><h2>Signature Convection Oven Pro</h2><ul><li>Dual convection</li><li>Steam-assist baking</li><li>Soft-close precision doors</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-03.jpg' alt='Premium Front-Load Washer'></div><div class='bct-card-content'><p class='bct-card-meta'>Laundry · Japan</p><h2>Premium Front-Load Washer</h2><ul><li>Silent-drive motor</li><li>Auto-dose detergent</li><li>Fabric care modes</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-04.jpg' alt='Built-in Wine Chiller'></div><div class='bct-card-content'><p class='bct-card-meta'>Lifestyle · France</p><h2>Built-in Wine Chiller</h2><ul><li>UV-protected glass</li><li>Dual temperature zones</li><li>Vibration-control system</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-05.jpg' alt='Platinum Dishwasher Series X'></div><div class='bct-card-content'><p class='bct-card-meta'>Cleaning · Sweden</p><h2>Platinum Dishwasher Series X</h2><ul><li>Low water usage</li><li>Crystal-safe cycle</li><li>Auto-dry technology</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-06.jpg' alt='Modular Air Purification Tower'></div><div class='bct-card-content'><p class='bct-card-meta'>Air Care · UAE</p><h2>Modular Air Purification Tower</h2><ul><li>HEPA H14 filtration</li><li>Smart sensors</li><li>Large-space coverage</li></ul></div></article></div></section>"}, "elements": []}]}]}]]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key><wp:meta_value><![CDATA[template-products-appliances.php]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>Crystal Products</title>
+<link>https://example.com/crystal-products</link>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=1004</guid>
+<description></description>
+<content:encoded><![CDATA[<section class='bct-section bct-section-dark'><div class='bct-container'><p class='bct-section-tag'>Crystal Selection</p><h1 class='bct-page-title'>Refined crystal collections inspired by yitaicrystal-style categories.</h1><div class='bct-grid bct-grid-3'><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-01.jpg' alt='Aurora Crystal Vase'></div><div class='bct-card-content'><p class='bct-card-meta'>Home Accessories</p><h2>Aurora Crystal Vase</h2><p>Lead-free crystal</p><p>Inspired by contemporary Asian crystal craft trends.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-02.jpg' alt='Celestial Gift Figurine'></div><div class='bct-card-content'><p class='bct-card-meta'>Gift Customization</p><h2>Celestial Gift Figurine</h2><p>Hand-cut optical crystal</p><p>Ideal for executive gifting and premium commemoratives.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-03.png' alt='Lumen Hanging Accent'></div><div class='bct-card-content'><p class='bct-card-meta'>Lighting Fixture</p><h2>Lumen Hanging Accent</h2><p>Polished faceted crystal</p><p>Decorative suspended crystal format for interiors.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-04.png' alt='Regal Crystal Bowl'></div><div class='bct-card-content'><p class='bct-card-meta'>Collection</p><h2>Regal Crystal Bowl</h2><p>Molded artisan crystal</p><p>Designed for premium tabletop presentation.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-05.png' alt='Imperial Decorative Orb'></div><div class='bct-card-content'><p class='bct-card-meta'>Home Accessories</p><h2>Imperial Decorative Orb</h2><p>K9 optical crystal</p><p>Statement centerpiece with high clarity and depth.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-06.png' alt='Signature Trophy Form'></div><div class='bct-card-content'><p class='bct-card-meta'>Gift Customization</p><h2>Signature Trophy Form</h2><p>Precision-engraved crystal</p><p>Corporate and ceremonial recognition piece.</p></div></article></div></div></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+<wp:post_id>1004</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-products]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key><wp:meta_value><![CDATA[builder]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key><wp:meta_value><![CDATA[3.20.0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key><wp:meta_value><![CDATA[[{"id": "sec-crystal-products", "elType": "section", "settings": {"content_width": "full"}, "elements": [{"id": "col-crystal-products", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "html-crystal-products", "elType": "widget", "widgetType": "html", "settings": {"html": "<section class='bct-section bct-section-dark'><div class='bct-container'><p class='bct-section-tag'>Crystal Selection</p><h1 class='bct-page-title'>Refined crystal collections inspired by yitaicrystal-style categories.</h1><div class='bct-grid bct-grid-3'><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-01.jpg' alt='Aurora Crystal Vase'></div><div class='bct-card-content'><p class='bct-card-meta'>Home Accessories</p><h2>Aurora Crystal Vase</h2><p>Lead-free crystal</p><p>Inspired by contemporary Asian crystal craft trends.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-02.jpg' alt='Celestial Gift Figurine'></div><div class='bct-card-content'><p class='bct-card-meta'>Gift Customization</p><h2>Celestial Gift Figurine</h2><p>Hand-cut optical crystal</p><p>Ideal for executive gifting and premium commemoratives.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-03.png' alt='Lumen Hanging Accent'></div><div class='bct-card-content'><p class='bct-card-meta'>Lighting Fixture</p><h2>Lumen Hanging Accent</h2><p>Polished faceted crystal</p><p>Decorative suspended crystal format for interiors.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-04.png' alt='Regal Crystal Bowl'></div><div class='bct-card-content'><p class='bct-card-meta'>Collection</p><h2>Regal Crystal Bowl</h2><p>Molded artisan crystal</p><p>Designed for premium tabletop presentation.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-05.png' alt='Imperial Decorative Orb'></div><div class='bct-card-content'><p class='bct-card-meta'>Home Accessories</p><h2>Imperial Decorative Orb</h2><p>K9 optical crystal</p><p>Statement centerpiece with high clarity and depth.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-06.png' alt='Signature Trophy Form'></div><div class='bct-card-content'><p class='bct-card-meta'>Gift Customization</p><h2>Signature Trophy Form</h2><p>Precision-engraved crystal</p><p>Corporate and ceremonial recognition piece.</p></div></article></div></div></section>"}, "elements": []}]}]}]]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key><wp:meta_value><![CDATA[template-products-crystal.php]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>Appliances Spare Parts</title>
+<link>https://example.com/appliances-spare-parts</link>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=1005</guid>
+<description></description>
+<content:encoded><![CDATA[<section class='bct-section bct-container'><p class='bct-section-tag'>Cooling & Appliance Components</p><h1 class='bct-page-title'>Precision spare parts catalog inspired by leading UAE HVAC suppliers.</h1><div class='bct-catalog-box'><div><p class='bct-card-meta'>Spare Parts Catalog</p><p>Download full catalog PDF (final file link will be added by your team).</p></div><a class='bct-btn bct-btn-gold' href='#'>Download Catalog</a></div><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-01.webp' alt='AC Compressor'></div><div class='bct-card-content'><h2>AC Compressor</h2><p class='bct-card-meta'>Air Conditioning</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-02.webp' alt='AC Duct'></div><div class='bct-card-content'><h2>AC Duct</h2><p class='bct-card-meta'>Air Conditioning</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-03.webp' alt='Cooling Coil'></div><div class='bct-card-content'><h2>Cooling Coil</h2><p class='bct-card-meta'>HVAC</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-04.webp' alt='Fridge Compressor'></div><div class='bct-card-content'><h2>Fridge Compressor</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-05.webp' alt='Fridge Timer'></div><div class='bct-card-content'><h2>Fridge Timer</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-06.webp' alt='Fridge Thermostat'></div><div class='bct-card-content'><h2>Fridge Thermostat</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-07.webp' alt='Washing Machine Pulsator'></div><div class='bct-card-content'><h2>Washing Machine Pulsator</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-08.webp' alt='Washing Machine Hub'></div><div class='bct-card-content'><h2>Washing Machine Hub</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-09.webp' alt='Washing Machine Gear'></div><div class='bct-card-content'><h2>Washing Machine Gear</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-10.webp' alt='Condenser Fan Motor'></div><div class='bct-card-content'><h2>Condenser Fan Motor</h2><p class='bct-card-meta'>HVAC</p></div></article></div></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+<wp:post_id>1005</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliances-spare-parts]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key><wp:meta_value><![CDATA[builder]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key><wp:meta_value><![CDATA[3.20.0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key><wp:meta_value><![CDATA[[{"id": "sec-appliances-spare-parts", "elType": "section", "settings": {"content_width": "full"}, "elements": [{"id": "col-appliances-spare-parts", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "html-appliances-spare-parts", "elType": "widget", "widgetType": "html", "settings": {"html": "<section class='bct-section bct-container'><p class='bct-section-tag'>Cooling & Appliance Components</p><h1 class='bct-page-title'>Precision spare parts catalog inspired by leading UAE HVAC suppliers.</h1><div class='bct-catalog-box'><div><p class='bct-card-meta'>Spare Parts Catalog</p><p>Download full catalog PDF (final file link will be added by your team).</p></div><a class='bct-btn bct-btn-gold' href='#'>Download Catalog</a></div><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-01.webp' alt='AC Compressor'></div><div class='bct-card-content'><h2>AC Compressor</h2><p class='bct-card-meta'>Air Conditioning</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-02.webp' alt='AC Duct'></div><div class='bct-card-content'><h2>AC Duct</h2><p class='bct-card-meta'>Air Conditioning</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-03.webp' alt='Cooling Coil'></div><div class='bct-card-content'><h2>Cooling Coil</h2><p class='bct-card-meta'>HVAC</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-04.webp' alt='Fridge Compressor'></div><div class='bct-card-content'><h2>Fridge Compressor</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-05.webp' alt='Fridge Timer'></div><div class='bct-card-content'><h2>Fridge Timer</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-06.webp' alt='Fridge Thermostat'></div><div class='bct-card-content'><h2>Fridge Thermostat</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-07.webp' alt='Washing Machine Pulsator'></div><div class='bct-card-content'><h2>Washing Machine Pulsator</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-08.webp' alt='Washing Machine Hub'></div><div class='bct-card-content'><h2>Washing Machine Hub</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-09.webp' alt='Washing Machine Gear'></div><div class='bct-card-content'><h2>Washing Machine Gear</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-10.webp' alt='Condenser Fan Motor'></div><div class='bct-card-content'><h2>Condenser Fan Motor</h2><p class='bct-card-meta'>HVAC</p></div></article></div></section>"}, "elements": []}]}]}]]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key><wp:meta_value><![CDATA[template-products-spare-parts.php]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>Contact Us</title>
+<link>https://example.com/contact-us</link>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=1006</guid>
+<description></description>
+<content:encoded><![CDATA[<section class='bct-section bct-container bct-contact-layout'>
+<div class='bct-contact-info'><p class='bct-section-tag'>Contact & Locations</p><h1 class='bct-page-title'>Get in touch with our team.</h1><p>Share your requirement for products, custom crystal requests, or technical spare part sourcing.</p><div class='bct-contact-block'><h3>Shop</h3><p>[Add Shop Address], UAE</p><p>[Add Shop Phone]</p><p>shop@brightcrescenttrading.com</p></div><div class='bct-contact-block'><h3>Office</h3><p>[Add Office Address], UAE</p><p>[Add Office Phone]</p><p>office@brightcrescenttrading.com</p></div></div>
+<div class='bct-contact-form-wrap'><p class='bct-section-tag'>Send Inquiry</p><h2>Contact Us</h2><form class='bct-contact-form' action='/wp-admin/admin-post.php' method='post'><input type='hidden' name='action' value='bct_contact_submit'><label>Name</label><input type='text' name='name' required><label>Email</label><input type='email' name='email' required><label>Comment</label><textarea name='comment' rows='6' required></textarea><button class='bct-btn bct-btn-gold bct-btn-block' type='submit'>Submit Inquiry</button></form></div>
+</section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+<wp:post_id>1006</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[contact-us]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key><wp:meta_value><![CDATA[builder]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key><wp:meta_value><![CDATA[3.20.0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key><wp:meta_value><![CDATA[[{"id": "sec-contact-us", "elType": "section", "settings": {"content_width": "full"}, "elements": [{"id": "col-contact-us", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "html-contact-us", "elType": "widget", "widgetType": "html", "settings": {"html": "<section class='bct-section bct-container bct-contact-layout'>\n<div class='bct-contact-info'><p class='bct-section-tag'>Contact & Locations</p><h1 class='bct-page-title'>Get in touch with our team.</h1><p>Share your requirement for products, custom crystal requests, or technical spare part sourcing.</p><div class='bct-contact-block'><h3>Shop</h3><p>[Add Shop Address], UAE</p><p>[Add Shop Phone]</p><p>shop@brightcrescenttrading.com</p></div><div class='bct-contact-block'><h3>Office</h3><p>[Add Office Address], UAE</p><p>[Add Office Phone]</p><p>office@brightcrescenttrading.com</p></div></div>\n<div class='bct-contact-form-wrap'><p class='bct-section-tag'>Send Inquiry</p><h2>Contact Us</h2><form class='bct-contact-form' action='/wp-admin/admin-post.php' method='post'><input type='hidden' name='action' value='bct_contact_submit'><label>Name</label><input type='text' name='name' required><label>Email</label><input type='email' name='email' required><label>Comment</label><textarea name='comment' rows='6' required></textarea><button class='bct-btn bct-btn-gold bct-btn-block' type='submit'>Submit Inquiry</button></form></div>\n</section>"}, "elements": []}]}]}]]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key><wp:meta_value><![CDATA[template-contact.php]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>home</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=5001</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>5001</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[menu-item-5001]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>1</wp:menu_order>
+<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1001]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>news</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=5002</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>5002</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[menu-item-5002]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>2</wp:menu_order>
+<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1002]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>appliances-products</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=5003</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>5003</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[menu-item-5003]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>3</wp:menu_order>
+<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1003]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>crystal-products</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=5004</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>5004</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[menu-item-5004]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>4</wp:menu_order>
+<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1004]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>appliances-spare-parts</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=5005</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>5005</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[menu-item-5005]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>5</wp:menu_order>
+<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1005]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>contact-us</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/?p=5006</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>5006</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[menu-item-5006]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>6</wp:menu_order>
+<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1006]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+<wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+</item>
+<item>
+<title>hero.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/hero.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7001</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[hero]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/hero.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>about.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/about.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7002</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[about]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/about.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>home-appliances.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/home-appliances.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7003</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[home-appliances]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/home-appliances.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>home-crystal.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/home-crystal.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7004</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[home-crystal]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/home-crystal.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>home-spare-parts.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/home-spare-parts.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7005</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[home-spare-parts]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/home-spare-parts.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>news-01.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-01.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7006</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[news-01]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-01.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>news-02.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-02.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7007</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[news-02]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-02.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>news-03.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-03.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7008</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[news-03]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-03.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>news-04.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-04.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7009</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[news-04]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/news-04.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>appliance-01.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-01.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7010</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliance-01]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-01.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>appliance-02.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-02.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7011</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliance-02]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-02.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>appliance-03.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-03.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7012</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliance-03]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-03.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>appliance-04.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-04.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7013</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliance-04]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-04.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>appliance-05.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-05.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7014</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliance-05]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-05.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>appliance-06.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-06.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7015</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[appliance-06]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/appliance-06.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>crystal-01.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-01.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7016</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-01]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-01.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>crystal-02.jpg</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-02.jpg</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7017</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-02]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-02.jpg]]></wp:attachment_url>
+</item>
+<item>
+<title>crystal-03.png</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-03.png</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7018</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-03]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-03.png]]></wp:attachment_url>
+</item>
+<item>
+<title>crystal-04.png</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-04.png</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7019</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-04]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-04.png]]></wp:attachment_url>
+</item>
+<item>
+<title>crystal-05.png</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-05.png</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7020</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-05]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-05.png]]></wp:attachment_url>
+</item>
+<item>
+<title>crystal-06.png</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-06.png</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7021</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[crystal-06]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/crystal-06.png]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-01.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-01.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7022</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-01]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-01.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-02.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-02.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7023</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-02]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-02.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-03.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-03.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7024</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-03]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-03.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-04.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-04.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7025</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-04]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-04.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-05.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-05.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7026</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-05]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-05.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-06.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-06.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7027</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-06]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-06.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-07.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-07.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7028</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-07]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-07.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-08.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-08.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7029</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-08]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-08.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-09.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-09.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7030</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-09]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-09.webp]]></wp:attachment_url>
+</item>
+<item>
+<title>spare-10.webp</title>
+<dc:creator><![CDATA[admin]]></dc:creator>
+<guid isPermaLink="false">https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-10.webp</guid>
+<content:encoded><![CDATA[]]></content:encoded>
+<wp:post_id>7031</wp:post_id>
+<wp:post_date><![CDATA[2026-03-11 00:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-03-11 00:00:00]]></wp:post_date_gmt>
+<wp:post_name><![CDATA[spare-10]]></wp:post_name>
+<wp:status><![CDATA[inherit]]></wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type><![CDATA[attachment]]></wp:post_type>
+<wp:is_sticky>0</wp:is_sticky>
+<wp:attachment_url><![CDATA[https://example.com/wp-content/themes/bright-crescent-luxe/assets/images/spare-10.webp]]></wp:attachment_url>
+</item>
 </channel>
 </rss>

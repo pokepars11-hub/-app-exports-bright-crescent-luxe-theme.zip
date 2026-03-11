@@ -116,3 +116,23 @@ Rebuild the website as a real WordPress theme package compatible with Hostinger 
 - Bundled all product/news/home images locally in `assets/images` (34 local image assets total).
 - Updated templates to render full default card sets when CPT entries are not yet created/imported.
 - Rebuilt final theme ZIP with full local assets: `/app/exports/bright-crescent-luxe-theme.zip`.
+
+### Revision - Strict WordPress Export Format (Elementor-driven)
+- Updated `front-page.php` and page templates to use content container output (`the_content`) so Elementor controls layout.
+- Simplified `header.php` and `footer.php` to remain override-friendly for Elementor Theme Builder.
+- Generated full Elementor template export with all page content/cards/sections:
+  - `/app/exports/elementor-templates.json`
+- Generated full demo import XML with:
+  - all required pages,
+  - menu structure,
+  - homepage assignment options,
+  - Elementor meta (`_elementor_data`) for page-level editable sections,
+  - media attachment references to local theme assets.
+  - `/app/exports/demo-content.xml`
+- Bundled all visual assets locally (images/css/js/fonts), no external image/icon dependencies:
+  - `/app/exports/assets/images`
+  - `/app/exports/assets/css`
+  - `/app/exports/assets/js`
+  - `/app/exports/assets/fonts`
+- Built requested final theme artifact name:
+  - `/app/exports/wordpress-theme.zip`

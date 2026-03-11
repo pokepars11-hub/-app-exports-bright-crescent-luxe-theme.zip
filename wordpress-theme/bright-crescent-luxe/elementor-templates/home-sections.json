@@ -1,134 +1,212 @@
-{
-  "version": "0.4",
-  "title": "Bright Crescent Home Sections",
-  "type": "page",
-  "page_settings": [],
-  "content": [
-    {
-      "id": "bct_hero_section",
-      "elType": "section",
-      "settings": {
-        "content_width": "boxed"
-      },
-      "elements": [
-        {
-          "id": "bct_hero_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100
-          },
-          "elements": [
-            {
-              "id": "bct_hero_heading",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Bright Crescent Trading Co LLC",
-                "size": "xxl"
-              },
-              "elements": []
+[
+  {
+    "title": "Home",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": [],
+    "content": [
+      {
+        "id": "sec-home",
+        "elType": "section",
+        "settings": {
+          "content_width": "full"
+        },
+        "elements": [
+          {
+            "id": "col-home",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
             },
-            {
-              "id": "bct_hero_text",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "Premium trading in appliances, crystal craft, and precision spare parts."
-              },
-              "elements": []
+            "elements": [
+              {
+                "id": "html-home",
+                "elType": "widget",
+                "widgetType": "html",
+                "settings": {
+                  "html": "<section class=\"bct-hero\" style=\"background-image: linear-gradient(to bottom, rgba(2,16,36,0.58), rgba(2,16,36,0.2)), url('/wp-content/themes/bright-crescent-luxe/assets/images/hero.jpg');\">\n  <div class=\"bct-container bct-hero-inner\">\n    <p class=\"bct-section-tag\">BRIGHT CRESCENT TRADING EXPERIENCE</p>\n    <h1>Bright Crescent Trading Co LLC</h1>\n    <p class=\"bct-hero-sub\">Premium Trading in Appliances, Crystal Craft, and Precision Spare Parts</p>\n    <div class=\"bct-hero-cta-group\">\n      <a class=\"bct-btn bct-btn-gold\" href=\"/contact-us\">Contact Us</a>\n      <a class=\"bct-btn bct-btn-outline\" href=\"/appliances-products\">Explore Products</a>\n    </div>\n  </div>\n</section>\n<section class=\"bct-section bct-container\">\n  <p class=\"bct-section-tag\">Core Divisions</p>\n  <h2>Professional sourcing across appliances, crystal products, and spare parts.</h2>\n  <div class=\"bct-grid bct-grid-3\">\n    <article class=\"bct-card\"><div class=\"bct-card-media\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/home-appliances.jpg\" alt=\"Premium Appliances\"></div><div class=\"bct-card-content\"><h3>Premium Appliances</h3><p>Curated home and commercial appliances from trusted global manufacturers.</p><a class=\"bct-inline-link\" href=\"/appliances-products\">View Category</a></div></article>\n    <article class=\"bct-card\"><div class=\"bct-card-media\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/home-crystal.jpg\" alt=\"Crystal Products\"></div><div class=\"bct-card-content\"><h3>Crystal Products</h3><p>Elegant crystal pieces inspired by international design and craftsmanship.</p><a class=\"bct-inline-link\" href=\"/crystal-products\">View Category</a></div></article>\n    <article class=\"bct-card\"><div class=\"bct-card-media\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/home-spare-parts.jpg\" alt=\"Spare Parts\"></div><div class=\"bct-card-content\"><h3>Appliances Spare Parts</h3><p>Reliable AC, refrigerator, and washing-machine parts for technicians and businesses.</p><a class=\"bct-inline-link\" href=\"/appliances-spare-parts\">View Category</a></div></article>\n  </div>\n</section>\n<section class=\"bct-section bct-container bct-about-grid\">\n  <div><p class=\"bct-section-tag\">About Bright Crescent</p><h2>A trusted trading partner with premium standards.</h2><p>Bright Crescent Trading Co LLC serves retail and commercial clients across UAE with carefully selected appliances, elegant crystal products, and dependable spare parts solutions.</p></div>\n  <div class=\"bct-about-image-wrap\"><img src=\"/wp-content/themes/bright-crescent-luxe/assets/images/about.jpg\" alt=\"About Bright Crescent\"></div>\n</section>\n<section class=\"bct-section bct-container\"><div class=\"bct-cta-box\"><div><p class=\"bct-section-tag\">Partnership Opportunity</p><h2>Need premium product sourcing support?</h2><p>Connect with our team for product catalogs, pricing details, and partnership opportunities.</p></div><a class=\"bct-btn bct-btn-gold\" href=\"/contact-us\">Get in Touch</a></div></section>"
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "News",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": [],
+    "content": [
+      {
+        "id": "sec-news",
+        "elType": "section",
+        "settings": {
+          "content_width": "full"
+        },
+        "elements": [
+          {
+            "id": "col-news",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
             },
-            {
-              "id": "bct_hero_button",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Contact Us",
-                "link": {
-                  "url": "/contact-us"
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bct_about_section",
-      "elType": "section",
-      "settings": {
-        "content_width": "boxed"
-      },
-      "elements": [
-        {
-          "id": "bct_about_col",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100
-          },
-          "elements": [
-            {
-              "id": "bct_about_heading",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "A trusted trading partner with premium standards.",
-                "size": "xl"
-              },
-              "elements": []
+            "elements": [
+              {
+                "id": "html-news",
+                "elType": "widget",
+                "widgetType": "html",
+                "settings": {
+                  "html": "<section class='bct-section bct-container'><p class='bct-section-tag'>Company Updates</p><h1 class='bct-page-title'>News and market highlights from Bright Crescent.</h1><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-01.jpg' alt='Bright Crescent Expands Premium Appliance Procurement Network'></div><div class='bct-card-content'><p class='bct-card-meta'>Company · 2026-01-15</p><h2>Bright Crescent Expands Premium Appliance Procurement Network</h2><p>Our sourcing division now supports broader supply coverage for premium kitchen and lifestyle appliances across GCC markets.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-02.jpg' alt='Crystal Collections for Hospitality and Luxury Interiors'></div><div class='bct-card-content'><p class='bct-card-meta'>Product · 2025-12-07</p><h2>Crystal Collections for Hospitality and Luxury Interiors</h2><p>We introduced curated crystal décor lines inspired by international exhibitions to support hotels, lounges, and high-end residences.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-03.jpg' alt='Faster Spare Parts Availability for Cooling Systems'></div><div class='bct-card-content'><p class='bct-card-meta'>Operations · 2025-11-26</p><h2>Faster Spare Parts Availability for Cooling Systems</h2><p>Inventory optimization now improves turnaround for AC and refrigeration spare parts requested by technicians and facility teams.</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/news-04.jpg' alt='Strategic Vendor Alliances for Long-Term Quality Assurance'></div><div class='bct-card-content'><p class='bct-card-meta'>Partnership · 2025-10-13</p><h2>Strategic Vendor Alliances for Long-Term Quality Assurance</h2><p>Bright Crescent reinforces quality checks and compliance standards through strategic partner evaluation and lifecycle testing.</p></div></article></div></section>"
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Appliances Products",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": [],
+    "content": [
+      {
+        "id": "sec-appliances-products",
+        "elType": "section",
+        "settings": {
+          "content_width": "full"
+        },
+        "elements": [
+          {
+            "id": "col-appliances-products",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
             },
-            {
-              "id": "bct_about_text",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "Bright Crescent Trading Co LLC serves retail and commercial clients across UAE with carefully selected products."
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bct_cta_section",
-      "elType": "section",
-      "settings": {
-        "content_width": "boxed"
-      },
-      "elements": [
-        {
-          "id": "bct_cta_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100
-          },
-          "elements": [
-            {
-              "id": "bct_cta_heading",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Need premium product sourcing support?",
-                "size": "xl"
-              },
-              "elements": []
+            "elements": [
+              {
+                "id": "html-appliances-products",
+                "elType": "widget",
+                "widgetType": "html",
+                "settings": {
+                  "html": "<section class='bct-section bct-container'><p class='bct-section-tag'>Appliances Portfolio</p><h1 class='bct-page-title'>Premium appliances for modern residential and commercial needs.</h1><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-01.jpg' alt='Elite Smart Refrigerator 520L'></div><div class='bct-card-content'><p class='bct-card-meta'>Refrigeration · Germany</p><h2>Elite Smart Refrigerator 520L</h2><ul><li>Multi-zone cooling</li><li>Energy-efficient inverter</li><li>Fingerprint-resistant steel</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-02.jpg' alt='Signature Convection Oven Pro'></div><div class='bct-card-content'><p class='bct-card-meta'>Cooking · Italy</p><h2>Signature Convection Oven Pro</h2><ul><li>Dual convection</li><li>Steam-assist baking</li><li>Soft-close precision doors</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-03.jpg' alt='Premium Front-Load Washer'></div><div class='bct-card-content'><p class='bct-card-meta'>Laundry · Japan</p><h2>Premium Front-Load Washer</h2><ul><li>Silent-drive motor</li><li>Auto-dose detergent</li><li>Fabric care modes</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-04.jpg' alt='Built-in Wine Chiller'></div><div class='bct-card-content'><p class='bct-card-meta'>Lifestyle · France</p><h2>Built-in Wine Chiller</h2><ul><li>UV-protected glass</li><li>Dual temperature zones</li><li>Vibration-control system</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-05.jpg' alt='Platinum Dishwasher Series X'></div><div class='bct-card-content'><p class='bct-card-meta'>Cleaning · Sweden</p><h2>Platinum Dishwasher Series X</h2><ul><li>Low water usage</li><li>Crystal-safe cycle</li><li>Auto-dry technology</li></ul></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/appliance-06.jpg' alt='Modular Air Purification Tower'></div><div class='bct-card-content'><p class='bct-card-meta'>Air Care · UAE</p><h2>Modular Air Purification Tower</h2><ul><li>HEPA H14 filtration</li><li>Smart sensors</li><li>Large-space coverage</li></ul></div></article></div></section>"
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Crystal Products",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": [],
+    "content": [
+      {
+        "id": "sec-crystal-products",
+        "elType": "section",
+        "settings": {
+          "content_width": "full"
+        },
+        "elements": [
+          {
+            "id": "col-crystal-products",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
             },
-            {
-              "id": "bct_cta_button",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Get in Touch",
-                "link": {
-                  "url": "/contact-us"
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "elements": [
+              {
+                "id": "html-crystal-products",
+                "elType": "widget",
+                "widgetType": "html",
+                "settings": {
+                  "html": "<section class='bct-section bct-section-dark'><div class='bct-container'><p class='bct-section-tag'>Crystal Selection</p><h1 class='bct-page-title'>Refined crystal collections inspired by yitaicrystal-style categories.</h1><div class='bct-grid bct-grid-3'><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-01.jpg' alt='Aurora Crystal Vase'></div><div class='bct-card-content'><p class='bct-card-meta'>Home Accessories</p><h2>Aurora Crystal Vase</h2><p>Lead-free crystal</p><p>Inspired by contemporary Asian crystal craft trends.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-02.jpg' alt='Celestial Gift Figurine'></div><div class='bct-card-content'><p class='bct-card-meta'>Gift Customization</p><h2>Celestial Gift Figurine</h2><p>Hand-cut optical crystal</p><p>Ideal for executive gifting and premium commemoratives.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-03.png' alt='Lumen Hanging Accent'></div><div class='bct-card-content'><p class='bct-card-meta'>Lighting Fixture</p><h2>Lumen Hanging Accent</h2><p>Polished faceted crystal</p><p>Decorative suspended crystal format for interiors.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-04.png' alt='Regal Crystal Bowl'></div><div class='bct-card-content'><p class='bct-card-meta'>Collection</p><h2>Regal Crystal Bowl</h2><p>Molded artisan crystal</p><p>Designed for premium tabletop presentation.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-05.png' alt='Imperial Decorative Orb'></div><div class='bct-card-content'><p class='bct-card-meta'>Home Accessories</p><h2>Imperial Decorative Orb</h2><p>K9 optical crystal</p><p>Statement centerpiece with high clarity and depth.</p></div></article><article class='bct-card bct-card-dark'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/crystal-06.png' alt='Signature Trophy Form'></div><div class='bct-card-content'><p class='bct-card-meta'>Gift Customization</p><h2>Signature Trophy Form</h2><p>Precision-engraved crystal</p><p>Corporate and ceremonial recognition piece.</p></div></article></div></div></section>"
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Appliances Spare Parts",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": [],
+    "content": [
+      {
+        "id": "sec-appliances-spare-parts",
+        "elType": "section",
+        "settings": {
+          "content_width": "full"
+        },
+        "elements": [
+          {
+            "id": "col-appliances-spare-parts",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
+            },
+            "elements": [
+              {
+                "id": "html-appliances-spare-parts",
+                "elType": "widget",
+                "widgetType": "html",
+                "settings": {
+                  "html": "<section class='bct-section bct-container'><p class='bct-section-tag'>Cooling & Appliance Components</p><h1 class='bct-page-title'>Precision spare parts catalog inspired by leading UAE HVAC suppliers.</h1><div class='bct-catalog-box'><div><p class='bct-card-meta'>Spare Parts Catalog</p><p>Download full catalog PDF (final file link will be added by your team).</p></div><a class='bct-btn bct-btn-gold' href='#'>Download Catalog</a></div><div class='bct-grid bct-grid-3'><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-01.webp' alt='AC Compressor'></div><div class='bct-card-content'><h2>AC Compressor</h2><p class='bct-card-meta'>Air Conditioning</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-02.webp' alt='AC Duct'></div><div class='bct-card-content'><h2>AC Duct</h2><p class='bct-card-meta'>Air Conditioning</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-03.webp' alt='Cooling Coil'></div><div class='bct-card-content'><h2>Cooling Coil</h2><p class='bct-card-meta'>HVAC</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-04.webp' alt='Fridge Compressor'></div><div class='bct-card-content'><h2>Fridge Compressor</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-05.webp' alt='Fridge Timer'></div><div class='bct-card-content'><h2>Fridge Timer</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-06.webp' alt='Fridge Thermostat'></div><div class='bct-card-content'><h2>Fridge Thermostat</h2><p class='bct-card-meta'>Refrigeration</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-07.webp' alt='Washing Machine Pulsator'></div><div class='bct-card-content'><h2>Washing Machine Pulsator</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-08.webp' alt='Washing Machine Hub'></div><div class='bct-card-content'><h2>Washing Machine Hub</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-09.webp' alt='Washing Machine Gear'></div><div class='bct-card-content'><h2>Washing Machine Gear</h2><p class='bct-card-meta'>Laundry</p></div></article><article class='bct-card'><div class='bct-card-media'><img src='/wp-content/themes/bright-crescent-luxe/assets/images/spare-10.webp' alt='Condenser Fan Motor'></div><div class='bct-card-content'><h2>Condenser Fan Motor</h2><p class='bct-card-meta'>HVAC</p></div></article></div></section>"
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Contact Us",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": [],
+    "content": [
+      {
+        "id": "sec-contact-us",
+        "elType": "section",
+        "settings": {
+          "content_width": "full"
+        },
+        "elements": [
+          {
+            "id": "col-contact-us",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
+            },
+            "elements": [
+              {
+                "id": "html-contact-us",
+                "elType": "widget",
+                "widgetType": "html",
+                "settings": {
+                  "html": "<section class='bct-section bct-container bct-contact-layout'>\n<div class='bct-contact-info'><p class='bct-section-tag'>Contact & Locations</p><h1 class='bct-page-title'>Get in touch with our team.</h1><p>Share your requirement for products, custom crystal requests, or technical spare part sourcing.</p><div class='bct-contact-block'><h3>Shop</h3><p>[Add Shop Address], UAE</p><p>[Add Shop Phone]</p><p>shop@brightcrescenttrading.com</p></div><div class='bct-contact-block'><h3>Office</h3><p>[Add Office Address], UAE</p><p>[Add Office Phone]</p><p>office@brightcrescenttrading.com</p></div></div>\n<div class='bct-contact-form-wrap'><p class='bct-section-tag'>Send Inquiry</p><h2>Contact Us</h2><form class='bct-contact-form' action='/wp-admin/admin-post.php' method='post'><input type='hidden' name='action' value='bct_contact_submit'><label>Name</label><input type='text' name='name' required><label>Email</label><input type='email' name='email' required><label>Comment</label><textarea name='comment' rows='6' required></textarea><button class='bct-btn bct-btn-gold bct-btn-block' type='submit'>Submit Inquiry</button></form></div>\n</section>"
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

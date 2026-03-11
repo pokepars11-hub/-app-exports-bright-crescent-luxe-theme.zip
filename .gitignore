@@ -77,8 +77,10 @@ agenthub/agents/youtube/db
 !exports/
 !exports/bright-crescent-website.zip
 !exports/bright-crescent-luxe-theme.zip
+!exports/wordpress-theme.zip
 !bright-crescent-website.zip
 !bright-crescent-luxe-theme.zip
+!wordpress-theme.zip
 
 # Build caches
 .cache/

@@ -7,10 +7,11 @@
 
 get_header();
 
-get_template_part('template-parts/section', 'hero');
-get_template_part('template-parts/section', 'about');
-get_template_part('template-parts/section', 'services');
-get_template_part('template-parts/section', 'cta');
-get_template_part('template-parts/section', 'contact');
+if (have_posts()) {
+    while (have_posts()) {
+        the_post();
+        the_content();
+    }
+}
 
 get_footer();
