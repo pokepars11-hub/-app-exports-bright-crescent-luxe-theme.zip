@@ -35,7 +35,20 @@ $query = new WP_Query([
                 </div>
             </article>
         <?php endwhile; wp_reset_postdata(); else : ?>
-            <p><?php esc_html_e('No appliances added yet. Add products from Dashboard > Products.', 'bright-crescent-luxe'); ?></p>
+            <?php foreach (bct_default_appliances() as $index => $item) : ?>
+                <article class="bct-card" data-testid="appliance-default-<?php echo esc_attr((string) $index); ?>">
+                    <div class="bct-card-media"><img src="<?php echo esc_url($item['image']); ?>" alt="<?php echo esc_attr($item['name']); ?>"></div>
+                    <div class="bct-card-content">
+                        <p class="bct-card-meta"><?php echo esc_html($item['category'] . ' · ' . $item['origin']); ?></p>
+                        <h2><?php echo esc_html($item['name']); ?></h2>
+                        <ul>
+                            <?php foreach ($item['specs'] as $spec) : ?>
+                                <li><?php echo esc_html($spec); ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </article>
+            <?php endforeach; ?>
         <?php endif; ?>
     </div>
 </section>

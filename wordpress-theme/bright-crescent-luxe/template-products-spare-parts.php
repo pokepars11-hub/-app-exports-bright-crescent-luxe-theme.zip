@@ -50,7 +50,15 @@ $query = new WP_Query([
                 </div>
             </article>
         <?php endwhile; wp_reset_postdata(); else : ?>
-            <p><?php esc_html_e('No spare parts yet. Add products from Dashboard > Products.', 'bright-crescent-luxe'); ?></p>
+            <?php foreach (bct_default_spare_parts() as $index => $item) : ?>
+                <article class="bct-card" data-testid="spare-default-<?php echo esc_attr((string) $index); ?>">
+                    <div class="bct-card-media"><img src="<?php echo esc_url($item['image']); ?>" alt="<?php echo esc_attr($item['name']); ?>"></div>
+                    <div class="bct-card-content">
+                        <h2><?php echo esc_html($item['name']); ?></h2>
+                        <p class="bct-card-meta"><?php echo esc_html($item['category']); ?></p>
+                    </div>
+                </article>
+            <?php endforeach; ?>
         <?php endif; ?>
     </div>
 </section>

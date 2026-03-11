@@ -31,7 +31,16 @@ $news_query = new WP_Query([
                 </article>
             <?php endwhile; wp_reset_postdata(); ?>
         <?php else : ?>
-            <p><?php esc_html_e('No news items yet. Add news from Dashboard > News.', 'bright-crescent-luxe'); ?></p>
+            <?php foreach (bct_default_news_items() as $index => $item) : ?>
+                <article class="bct-card" data-testid="news-default-item-<?php echo esc_attr((string) $index); ?>">
+                    <div class="bct-card-media"><img src="<?php echo esc_url($item['image']); ?>" alt="<?php echo esc_attr($item['title']); ?>"></div>
+                    <div class="bct-card-content">
+                        <p class="bct-card-meta"><?php echo esc_html($item['category'] . ' · ' . $item['date']); ?></p>
+                        <h2><?php echo esc_html($item['title']); ?></h2>
+                        <p><?php echo esc_html($item['excerpt']); ?></p>
+                    </div>
+                </article>
+            <?php endforeach; ?>
         <?php endif; ?>
     </div>
 </section>

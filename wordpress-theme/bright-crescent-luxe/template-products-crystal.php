@@ -36,7 +36,17 @@ $query = new WP_Query([
                     </div>
                 </article>
             <?php endwhile; wp_reset_postdata(); else : ?>
-                <p><?php esc_html_e('No crystal products yet. Add products from Dashboard > Products.', 'bright-crescent-luxe'); ?></p>
+                <?php foreach (bct_default_crystals() as $index => $item) : ?>
+                    <article class="bct-card bct-card-dark" data-testid="crystal-default-<?php echo esc_attr((string) $index); ?>">
+                        <div class="bct-card-media"><img src="<?php echo esc_url($item['image']); ?>" alt="<?php echo esc_attr($item['name']); ?>"></div>
+                        <div class="bct-card-content">
+                            <p class="bct-card-meta"><?php echo esc_html($item['collection']); ?></p>
+                            <h2><?php echo esc_html($item['name']); ?></h2>
+                            <p><?php echo esc_html($item['material']); ?></p>
+                            <p><?php echo esc_html($item['note']); ?></p>
+                        </div>
+                    </article>
+                <?php endforeach; ?>
             <?php endif; ?>
         </div>
     </div>

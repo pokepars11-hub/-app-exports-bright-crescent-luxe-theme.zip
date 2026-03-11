@@ -10,19 +10,19 @@ $cards = [
         'title' => 'Premium Appliances',
         'desc'  => 'Curated residential and commercial appliance collections from trusted manufacturers.',
         'url'   => home_url('/appliances-products'),
-        'img'   => bct_default_image('appliances.jpg'),
+        'img'   => bct_asset_image('home-appliances.jpg'),
     ],
     [
         'title' => 'Crystal Products',
         'desc'  => 'Elegant crystal products inspired by modern craftsmanship and premium décor trends.',
         'url'   => home_url('/crystal-products'),
-        'img'   => bct_default_image('crystal.jpg'),
+        'img'   => bct_asset_image('home-crystal.jpg'),
     ],
     [
         'title' => 'Appliances Spare Parts',
         'desc'  => 'Reliable components for AC, fridge, and home appliance service requirements.',
         'url'   => home_url('/appliances-spare-parts'),
-        'img'   => bct_default_image('spare-parts.jpg'),
+        'img'   => bct_asset_image('home-spare-parts.jpg'),
     ],
 ];
 ?>

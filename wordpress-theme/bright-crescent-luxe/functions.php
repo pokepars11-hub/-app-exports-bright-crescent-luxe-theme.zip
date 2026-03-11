@@ -13,6 +13,7 @@ define('BCT_THEME_VERSION', '1.0.0');
 
 require get_template_directory() . '/inc/post-types.php';
 require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/inc/default-content.php';
 
 function bct_theme_setup(): void
 {

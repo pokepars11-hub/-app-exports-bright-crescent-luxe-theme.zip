@@ -290,6 +290,16 @@ img {
     color: var(--bct-muted);
 }
 
+.bct-card-content ul {
+    margin: 10px 0 0;
+    padding-left: 18px;
+    color: var(--bct-muted);
+}
+
+.bct-card-content li {
+    margin-bottom: 4px;
+}
+
 .bct-card-meta {
     margin-bottom: 6px;
     font-family: "Cinzel", serif;
